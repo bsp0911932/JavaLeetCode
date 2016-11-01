@@ -1,2 +1,2 @@
 # JavaLeetCode
-My java leet code practice proj
+This is my Java leetcode practice proj

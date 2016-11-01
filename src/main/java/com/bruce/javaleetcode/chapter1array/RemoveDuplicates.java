@@ -7,6 +7,8 @@ package com.bruce.javaleetcode.chapter1array;
  * Do not allocate extra space for another array, you must do this in place with constant memory.
  * For example, Given input array A = [1,1,2],
  * Your function should return length = 2, and A is now [1,2].
+ *
+ * key points:
  */
 public class RemoveDuplicates {
 
@@ -66,4 +68,13 @@ public class RemoveDuplicates {
         return len;
     }
 
+    public static int test() {
+        System.out.println("this is my proj");
+        int[] dupArr = {1, 1, 2, 2, 2, 2, 2, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5};
+        int len = RemoveDuplicates.remove2(dupArr, 3);
+        for (int i = 0; i < len; i++) {
+            System.out.println(dupArr[i]);
+        }
+        return 0;
+    }
 }
